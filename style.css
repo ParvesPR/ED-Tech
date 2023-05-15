@@ -7,6 +7,25 @@ p {
     color: #777;
 }
 
+.button {
+    display: block;
+    background: #289BDE;
+    color: #fff;
+    border: 1px solid #289BDE;
+    outline: none;
+    border-radius: 3px;
+    padding: .7rem 1.4rem;
+    transition:ease-in-out 0.4s;
+}
+
+/*HOVER EFFECT*/
+.button:hover {
+    background: #fff;
+    color: #289BDE;
+    box-shadow: inset 1px -5px 12px -4px #289BDE;
+    cursor: pointer;
+}
+
 /* NAVBAR CSS */
 .nav-title {
     font-size: 2rem;
@@ -75,6 +94,7 @@ p {
 /* HOVER EFFECT */
 .course-card:hover {
     transform: translateY(-12px);
+    cursor: pointer;
 }
 
 .course-card img:hover {
