@@ -65,6 +65,20 @@ p {
 .course-card {
     border: 1px solid #EEE;
     border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+.course-card img {
+    transition: 0.5s;
+}
+
+/* HOVER EFFECT */
+.course-card:hover {
+    transform: translateY(-12px);
+}
+
+.course-card img:hover {
+    transform: scale(0.95);
 }
 
 /* CUSTOM RESPONSIVE */
