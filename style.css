@@ -2,6 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* UTILITIES */
+p {
+    color: #777;
+}
+
 /* NAVBAR CSS */
 .nav-title {
     font-size: 2rem;
@@ -52,12 +57,27 @@ body {
 }
 
 .carousel-item img {
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
+}
+
+/* COURSE SECTION */
+.course-card {
+    border: 1px solid #EEE;
+    border-radius: 5px;
 }
 
 /* CUSTOM RESPONSIVE */
 @media only screen and (max-width: 600px) {
+    .section-title h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .section-title p {
+        width: 100% !important;
+    }
+
     .course-section img {
         width: 100%;
     }
