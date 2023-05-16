@@ -14,7 +14,7 @@ p {
     border: 1px solid #289BDE;
     outline: none;
     border-radius: 3px;
-    padding: .7rem 1.4rem;
+    padding: .65rem 1.5rem;
     transition:ease-in-out 0.4s;
 }
 
@@ -99,6 +99,11 @@ p {
 
 .course-card img:hover {
     transform: scale(0.95);
+}
+
+/* HERO SECTION */
+.hero-section{
+    background: #F4FAFD;
 }
 
 /* CUSTOM RESPONSIVE */
