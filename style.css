@@ -5,6 +5,8 @@ body {
 /* UTILITIES */
 p {
     color: #777;
+    font-weight: 300;
+    line-height: 1.88rem;
 }
 
 .button {
@@ -15,7 +17,18 @@ p {
     outline: none;
     border-radius: 3px;
     padding: .65rem 1.5rem;
-    transition:ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
+.white-button {
+    display: block;
+    background: #ffffff;
+    color: #289BDE;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 3px;
+    padding: .65rem 1.5rem;
+    transition: all ease-in-out 0.4s;
 }
 
 /*HOVER EFFECT*/
@@ -23,6 +36,14 @@ p {
     background: #fff;
     color: #289BDE;
     box-shadow: inset 1px -5px 12px -4px #289BDE;
+    cursor: pointer;
+}
+
+.white-button:hover {
+    background: #289BDE;
+    color: #ffffff;
+    border: 1px solid #289BDE;
+    box-shadow: inset 1px 5px 12px -1px #ffffff;
     cursor: pointer;
 }
 
@@ -102,7 +123,7 @@ p {
 }
 
 /* HERO SECTION */
-.hero-section{
+.hero-section {
     background: #F4FAFD;
 }
 
