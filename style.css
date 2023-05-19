@@ -139,12 +139,22 @@ p {
 /* HOVER EFFECT */
 .our-student .col-12:hover img {
     transform: scale(0.95);
-    margin-top: 10px;
-    box-shadow: 0 1rem 4rem rgba(0, 0, 0, .175);
+    margin-bottom: -12px;
+    box-shadow: 0 .8rem 2rem rgba(0, 0, 0, .175);
+}
+
+/* STUDENT FEEDBACK */
+.feedback p {
+    width: 55%;
+    margin: auto;
 }
 
 /* CUSTOM RESPONSIVE */
 @media only screen and (max-width: 600px) {
+    p {
+        line-height: 1.6rem;
+    }
+
     .section-title h1 {
         font-size: 1.5rem;
         font-weight: 600;
@@ -159,6 +169,10 @@ p {
     }
 
     .our-student p {
+        width: 100%;
+    }
+
+    .feedback p {
         width: 100%;
     }
 
