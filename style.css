@@ -7,6 +7,7 @@ p {
     color: #777;
     font-weight: 300;
     line-height: 1.88rem;
+    margin: 0px;
 }
 
 .button {
@@ -144,9 +145,19 @@ p {
 }
 
 /* STUDENT FEEDBACK */
-.feedback p {
+.feedback .sub-title {
     width: 55%;
     margin: auto;
+}
+
+.feedback .rating {
+    display: block;
+    font-size: 0.5rem !important;
+}
+
+.student p {
+    font-size: 0.9rem;
+    line-height: normal;
 }
 
 /* CUSTOM RESPONSIVE */
