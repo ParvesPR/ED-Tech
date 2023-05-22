@@ -160,6 +160,21 @@ p {
     line-height: normal;
 }
 
+/* FAQ SECTION */
+.faq p {
+    width: 55%;
+    margin: auto;
+}
+
+.faq .accordion {
+    width: 70%;
+    margin: auto;
+}
+
+.accordion-border {
+    border-top: 1px solid #eee !important;
+}
+
 /* CUSTOM RESPONSIVE */
 @media only screen and (max-width: 600px) {
     p {
@@ -187,4 +202,11 @@ p {
         width: 100%;
     }
 
+    .faq p {
+        width: 100%;
+    }
+
+    .faq .accordion {
+        width: 100%;
+    }
 }
