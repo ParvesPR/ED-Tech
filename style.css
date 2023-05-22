@@ -175,6 +175,37 @@ p {
     border-top: 1px solid #eee !important;
 }
 
+/* FOOTER SECTION */
+.footer {
+    background: #161616;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    line-height: 1.4rem;
+}
+}
+
+.footer-icon span {
+    font-size: 1.1rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #242424;
+    border: 1px solid #242424;
+    border-radius: 50%;
+    transition: ease-in-out 0.3s;
+}
+
+/* HOVER EFFECT */
+.footer-icon span:hover {
+    transform: scale(1.2);
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: red;
+}
+
 /* CUSTOM RESPONSIVE */
 @media only screen and (max-width: 600px) {
     p {
