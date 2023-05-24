@@ -3,6 +3,11 @@ body {
 }
 
 /* UTILITIES */
+.m-10 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 p {
     color: #777;
     font-weight: 300;
@@ -30,6 +35,10 @@ p {
     border-radius: 3px;
     padding: .65rem 1.5rem;
     transition: all ease-in-out 0.4s;
+}
+
+.sub-title {
+    width: 55%;
 }
 
 /*HOVER EFFECT*/
@@ -83,11 +92,12 @@ p {
 }
 
 /* CAROUSEL CSS */
-.c-item p{
+.c-item p {
     width: 70%;
     margin: auto;
 }
-.c-img{
+
+.c-img {
     height: 90vh;
     object-fit: cover;
     filter: brightness(0.4);
@@ -120,9 +130,6 @@ p {
 }
 
 /* OUR STUDENTS SECTION */
-.our-student p {
-    width: 50%;
-}
 
 .our-student .col-12 img {
     transition: all ease-in-out .3s;
@@ -136,11 +143,6 @@ p {
 }
 
 /* STUDENT FEEDBACK */
-.feedback .sub-title {
-    width: 55%;
-    margin: auto;
-}
-
 .feedback .rating {
     display: block;
     font-size: 0.5rem !important;
@@ -152,10 +154,6 @@ p {
 }
 
 /* FAQ SECTION */
-.faq p {
-    width: 55%;
-    margin: auto;
-}
 
 .faq .accordion {
     width: 70%;
@@ -196,10 +194,20 @@ p {
     color: red;
 }
 
-/* CUSTOM RESPONSIVE */
-@media only screen and (max-width: 600px) {
+/* CUSTOM RESPONSIVE MOBILE DEVICES*/
+@media only screen and (max-width: 576px) {
     p {
         line-height: 1.6rem;
+    }
+
+    .m-10 {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .sub-title {
+        width: 100%;
+        margin: auto;
     }
 
     .section-title h1 {
@@ -210,28 +218,37 @@ p {
     .section-title p {
         width: 100% !important;
     }
-    .c-item h5{
+
+    .c-item h5 {
         font-size: 1.5rem !important;
     }
-    .c-item p{
+
+    .c-item p {
         width: 100%;
-       }
+    }
+
     .course-section img {
         width: 100%;
     }
 
-    .our-student p {
+    .faq .accordion {
         width: 100%;
     }
+}
 
-    .feedback p {
-        width: 100%;
+/* CUSTOM RESPONSIVE TABLET DEVICES */
+@media only screen and (max-width: 992px) {
+    .m-10 {
+        margin-top: 80px;
+        margin-bottom: 80px;
     }
 
-    .faq p {
-        width: 100%;
+    .sub-title {
+        width: 80%;
     }
-
+.faq{
+    margin-bottom: 0px;
+}
     .faq .accordion {
         width: 100%;
     }
