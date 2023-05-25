@@ -246,9 +246,15 @@ p {
     .sub-title {
         width: 80%;
     }
-.faq{
-    margin-bottom: 0px;
-}
+    
+.c-img {
+    height: 100vh;
+   }
+
+    .faq {
+        margin-bottom: 0px;
+    }
+
     .faq .accordion {
         width: 100%;
     }
